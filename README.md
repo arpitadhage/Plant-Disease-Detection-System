@@ -142,13 +142,13 @@ Research & Education
 Crop Monitoring Systems
 
 ```
+---
 
-
-###📜 License
+📜 License
 
 MIT License
 
-###👩‍💻 Developed By
+👩‍💻 Developed By
 
 Arpita Dhage
 B.Tech Computer Science (AI/ML)
