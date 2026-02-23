@@ -1,83 +1,92 @@
-🌿 Plant Disease Detection System
-AI-Based Crop Health Monitoring & Disease Classification Engine
+# 🌿 Plant Disease Detection System  
+## AI-Based Crop Health Monitoring & Disease Classification Engine
 
 Plant Disease Detection System is a deep learning–powered full-stack application that identifies plant leaf diseases from uploaded images and provides accurate classification with confidence scores.
 
-Designed to assist farmers, researchers, and agri-tech platforms in early disease detection, improving crop yield and reducing agricultural losses.
+Designed to assist farmers, agri-tech platforms, and researchers in early disease detection to improve crop yield and reduce agricultural losses.
 
-🚀 Key Features
+---
 
-📷 Leaf Image Upload
+## 🚀 Key Features
+
+📷 **Leaf Image Upload**  
 Upload plant leaf images through an intuitive web interface.
 
-🧠 Deep Learning Disease Classification
+🧠 **Deep Learning Disease Classification**  
 CNN-based model detects and classifies plant diseases with high accuracy.
 
-📊 Confidence Score Display
+📊 **Confidence Score Display**  
 Displays prediction probability for better reliability assessment.
 
-🌱 Multi-Disease Support
+🌱 **Multi-Disease Support**  
 Supports multiple plant species and disease categories.
 
-🗂 Image & Prediction Management
-Stores uploaded images and prediction results for future reference.
+📁 **Image & Prediction Management**  
+Stores uploaded images and results for future reference.
 
-🔐 Secure Backend Integration
-Structured backend for handling image processing and model inference.
+🔐 **Secure Backend Integration**  
+Structured backend for handling API and model inference.
 
-🏗 System Architecture
+---
 
-Leaf Image Upload
-⬇
-Image Preprocessing
-⬇
-Deep Learning Model (CNN)
-⬇
-Disease Classification
-⬇
-Confidence Scoring
-⬇
-Result Display
+## 🏗 System Architecture
 
-🛠 Tech Stack
-Frontend
+Leaf Image Upload  
+⬇  
+Image Preprocessing  
+⬇  
+Deep Learning Model (CNN)  
+⬇  
+Disease Classification + Confidence Scoring  
+⬇  
+Result Display  
 
-React.js / HTML / CSS / JavaScript
+---
 
-Axios (API Calls)
+## 🛠 Tech Stack
 
-Backend
+### 🖥 Frontend
+- React.js
+- HTML, CSS, JavaScript
+- Axios (API Requests)
 
-Python / Flask (or FastAPI if used)
+### ⚙️ Backend
+- Python
+- Flask (REST API)
+- Image Processing (OpenCV / PIL)
 
-REST API Architecture
+### 🤖 Machine Learning
+- TensorFlow / Keras
+- CNN Model
+- Trained on plant disease dataset
 
-Image Processing (OpenCV / PIL)
+---
 
-Machine Learning
+## 📁 Project Structure
 
-TensorFlow / Keras
 
-Convolutional Neural Networks (CNN)
-
-Trained on labeled plant disease dataset
-
-📁 Project Structure
 Plant-Disease-Detection-System/
 ├── backend/
-│   ├── model/
-│   ├── routes/
-│   ├── app.py
-│   └── requirements.txt
+│ ├── model/
+│ ├── routes/
+│ ├── app.py
+│ └── requirements.txt
 │
 ├── frontend/
-│   ├── public/
-│   ├── src/
-│   └── package.json
+│ ├── public/
+│ ├── src/
+│ └── package.json
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/arpitadhage/Plant-Disease-Detection-System.git
 cd Plant-Disease-Detection-System
 2️⃣ Backend Setup
@@ -107,28 +116,18 @@ http://localhost:3000
 🔐 Environment Variables
 Variable	Description
 MODEL_PATH	Path to trained model file
-PORT	Backend server port
-📊 Model Information
-
-Architecture: Convolutional Neural Network (CNN)
-
-Input: Leaf Image (Resized & Normalized)
-
-Output: Disease Class + Probability
-
-Training Dataset: Labeled Plant Disease Dataset (e.g., PlantVillage)
-
+PORT	Backend server port (optional)
 📌 Roadmap
 
  Real-time mobile camera integration
 
  Deploy model on cloud (AWS / Azure)
 
- Add fertilizer & treatment recommendation engine
+ Add treatment recommendation engine
 
- Multi-language farmer support
+ Multi-language support
 
- Crop yield prediction integration
+ Model performance dashboard
 
 🎯 Use Cases
 
@@ -138,19 +137,9 @@ Smart Farming Applications
 
 Agri-Tech Startups
 
-Research & Educational Projects
+Research & Education
 
 Crop Monitoring Systems
-
-🧠 Innovation Highlights
-
-Enables early disease detection
-
-Reduces crop loss and pesticide overuse
-
-Supports precision agriculture
-
-Scalable AI-driven agriculture solution
 
 📜 License
 
